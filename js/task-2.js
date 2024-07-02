@@ -5,3 +5,5 @@ function formatMessage(message, maxLength) {
     return message.slice(0, maxLength) + "...";
   }
 }
+
+console.log(formatMessage("Nunc sed turpis a felis in nunc fringilla", 41)); // "Nunc sed turpis a felis in nunc fringilla"

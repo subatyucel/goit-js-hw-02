@@ -12,3 +12,5 @@ function getShippingCost(country) {
       return "Sorry, there is no delivery to your country";
   }
 }
+
+console.log(getShippingCost("Sweden")); // "Sorry, there is no delivery to your country"
